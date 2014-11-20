@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  match "books/index" => "books#index", :via => :post :as => :index
+  match "books/index" => "books#index", :via => :post, :as => :index
   match "books/add" => "books#add", :via => :post
 
 
